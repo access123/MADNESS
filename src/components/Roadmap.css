@@ -5,6 +5,8 @@
     border: 2px solid red;
     border-radius: 2%;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 
 .Roadmap-items {
