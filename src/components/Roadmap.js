@@ -8,6 +8,7 @@ import IconButton from '@mui/material/IconButton';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import './Roadmap.css';
 import Side from './Side';
+import Nav from './Nav'
 export default function Roadmap() {
     const [drawerOpen, setDrawerOpen] = useState(false);
 
@@ -20,6 +21,7 @@ export default function Roadmap() {
     };
     return (
         <>
+              <Nav titleLink={'Roadmap'} li1={'HOME'} li2={'ABOUT'} li3={'CONTACT'} />
             <Routes>
                 <Route path='side' element={<Side/>}/>
             </Routes>
